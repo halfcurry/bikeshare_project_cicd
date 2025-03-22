@@ -54,6 +54,8 @@ jobs:
 
       - name: Push Docker image
         run: docker push halfcurry/bike_sharing_api:latest
-      
+
+      - name: Log out from Docker
+        run: docker logout
 
       
